@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cabin {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /*Use a value from 400 to 700*/
+  font-style: normal;
+  font-variation-settings: 100;
+}
+nav {
+  background-color: #373a3c;
+}
+
+main {
+  margin-top: 2.5rem;
+}
+.logo {
+  font-family: "Lobster", sans-serif;
+  font-weight: 500;
+  font-size: 37px;
+  color: #fff;
+  padding-top: 15px;
+}
+#imagen-principal {
+  height: 100%;
+  width: 100%;
+}
+.titulo-header {
+  max-width: 425px;
+  height: 201px;
+  padding-top: 10px;
+}
+.titulo-header h1 {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  /* line-height: 49px; */
+}
+hr {
+  height: 2px;
+  background-color: #000;
+  width: 100%;
+}
+.subtitulo h3 {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  line-height: 24px;
+}
+.footerh2 {
+  padding-top: 120px;
+}
+.footernews {
+  background-color: #dc3545;
+}
+.footerh2 h2 {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #fff;
+}
+.footerp {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  color: #fff;
+}
+.footerp p {
+  display: inline;
+}
+#Ricomida {
+  font-family: "Lobster", sans-serif;
+  font-size: 30px;
+}
+.footerb {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  margin-top: 30px;
+}
+.footerh6 h6 {
+  font-family: "Lobster", sans-serif;
+  font-weight: normal;
+  font-size: 37px;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: #373a3c;
+}
+#enviarCorreo {
+  width: 141.71px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #373a3c;
+  border-color: #dddddd;
+  padding: 4px 4px 4px 4px;
+}
+#enviarCorreo:hover {
+  background-color: #526565;
+  transition: 0.8s;
+  opacity: 0.4;
+}
+#favoritos {
+  width: 141.71px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #373a3c;
+  border-color: #dddddd;
+  padding: 4px 4px 4px 4px;
+}
+#favoritos:hover {
+  background-color: #526565;
+  transition: 0.8s;
+  opacity: 0.4;
+}
+.correo {
+  text-decoration: none;
+  color: #000;
+}
+.buttons-header {
+  display: inline;
+}
+.recetas-relacionadas h1 {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 49px;
+  padding-bottom: 15px;
+}
+.receta {
+  font-family: "Cabin", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: left;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+}
+.receta h4 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: left;
+  line-height: 30px;
+  text-decoration: underline;
+  letter-spacing: 0.6px;
+}
+.dobleclick {
+  color: #000;
+}
+
+@media (max-width: 576px) {
+  #carousel-fotos {
+    display: none;
+  }
+}
